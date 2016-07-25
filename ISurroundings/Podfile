@@ -3,5 +3,6 @@ use_frameworks!
 target 'ISurroundings' do
 pod 'AFNetworking'
 pod 'Masonry'
-pod 'ReactiveCocoa' 
+pod 'ReactiveCocoa'
+pod 'IQKeyboardManager'
 end

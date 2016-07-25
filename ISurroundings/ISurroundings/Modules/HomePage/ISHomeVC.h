@@ -1,5 +1,5 @@
 //
-//  FirstVC.h
+//  ISHomeVC.h
 //  ISurroundings
 //
 //  Created by lowell on 7/22/16.
@@ -8,16 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstVC : UIViewController
-
+@interface ISHomeVC : UIViewController
 
 @property (weak, nonatomic) IBOutlet UIButton *loginBtn;
 
-
 - (IBAction)loginAction:(id)sender;
-
-
-
-
 
 @end

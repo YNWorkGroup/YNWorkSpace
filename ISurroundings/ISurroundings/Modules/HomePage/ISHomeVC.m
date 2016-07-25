@@ -1,17 +1,16 @@
 //
-//  FirstVC.m
+//  ISHomeVC.m
 //  ISurroundings
 //
 //  Created by lowell on 7/22/16.
 //  Copyright © 2016 LY. All rights reserved.
 //
 
-#import "FirstVC.h"
+#import "ISHomeVC.h"
 
-@implementation FirstVC
+@implementation ISHomeVC
 
 - (IBAction)loginAction:(id)sender {
-    [self performSegueWithIdentifier:@"secondVC" sender:sender];
-    
+    [self performSegueWithIdentifier:@"loginAction" sender:sender];
 }
 @end
